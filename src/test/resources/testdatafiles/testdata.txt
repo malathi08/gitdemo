@@ -1,0 +1,15 @@
+chrome,msdet21,valid,Learn@123,valid
+chrome,,blank,N/A,N/A
+chrome,msdet21,valid,,blank
+chrome,learnsdet2020,invalid,N/A,N/A
+chrome,mdet21,valid,Learn,invalid
+firefox,msdet21,valid,Learn@123,valid
+firefox,,blank,N/A,N/A
+firefox,msdet21,valid,,blank
+firefox,learnsdet,invalid,N/A,N/A
+firefox,msdet21,valid,Learn,invalid
+chrome,msdet21,valid,Learn@123,valid
+chrome,,blank,N/A,N/A
+chrome,msdet21,valid,,blank
+chrome,learnsdet,invalid,N/A,N/A
+chrome,msdet21,valid,Learn,invalid

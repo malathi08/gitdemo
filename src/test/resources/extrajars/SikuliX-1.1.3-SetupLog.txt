@@ -1,0 +1,54 @@
+[debug (23/06/21, 11:30:21 am)] Debug: setLogFile: E:\practise\org.amazon.TDD\src\test\resources\extrajars\SikuliX-1.1.3-SetupLog.txt
+[debug (23/06/21, 11:30:21 am)] RunSetup: ... starting with no args given
+[debug (23/06/21, 11:30:21 am)] RunSetup: Setup: 1.1.3 2018-07-11_08:19 in folder:
+E:\practise\org.amazon.TDD\src\test\resources\extrajars
+[debug (23/06/21, 11:30:22 am)] RunSetup: RunningSystem: Windows 10.0
+[debug (23/06/21, 11:30:22 am)] RunSetup: parent of jar/classes: E:\practise\org.amazon.TDD\src\test\resources\extrajars
+[debug (23/06/21, 11:30:22 am)] RunSetup: RunningJava: Java 15 (amd64) 15.0.1+9-18
+[debug (23/06/21, 11:30:22 am)] init user preferences
+[debug (23/06/21, 11:30:27 am)] RunSetup: 
+popAsk: --------------------
+The following file(s) will be downloaded to
+E:\practise\org.amazon.TDD\src\test\resources\extrajars
+--- Native support libraries for Windows (sikulixlibs...)
+--- Package 2 ---
+sikulixsetupAPI-1.1.3-20180711.082046-40-forsetup.jar (Java API)
+Only click NO, if you want to terminate setup now!
+Click YES even if you want to use local copies in Downloads!
+--------------------
+[debug (23/06/21, 11:30:29 am)] RunSetup: 
+popAsk: --------------------
+You have for Windows native libs
+C:\Users\vani\AppData\Roaming\Sikulix\SikulixDownloads\sikulixlibswin-1.1.1.jar
+Click YES, if you want to use this for setup processing
+... or click NO, to ignore it and download a fresh copy
+--------------------
+[debug (23/06/21, 11:30:31 am)] RunSetup: Copied from Downloads: sikulixlibswin
+[debug (23/06/21, 11:30:31 am)] FileManager: resetFolder:
+E:\practise\org.amazon.TDD\src\test\resources\extrajars\SetupStuff\sikulixlibs\windows
+jar:file:/E:/practise/org.amazon.TDD/src/test/resources/extrajars/sikulixlibswin.jar
+[debug (23/06/21, 11:30:32 am)] RunSetup: 
+popAsk: --------------------
+You have for Java API package
+C:\Users\vani\AppData\Roaming\Sikulix\SikulixDownloads_201807110819\sikulixsetupAPI-1.1.3-20180711.082046-40-forsetup.jar
+Click YES, if you want to use this for setup processing
+... or click NO, to ignore it and download a fresh copy
+--------------------
+[debug (23/06/21, 11:30:35 am)] RunSetup: Copied from Downloads: sikulixapi
+[debug (23/06/21, 11:30:35 am)] RunSetup: Download ended
+[debug (23/06/21, 11:30:35 am)] RunSetup: Downloads for selected options:
+sikulixlibswin-1.1.1.jar sikulixsetupAPI-1.1.3-20180711.082046-40-forsetup.jar 
+[debug (23/06/21, 11:30:35 am)] RunSetup: adding needed stuff to sikulixapi.jar
+[debug (23/06/21, 11:30:35 am)] FileManager: buildJar: sikulixtemp.jar
+[debug (23/06/21, 11:30:35 am)] FileManager: buildJar: adding: sikulixapi.jar
+[debug (23/06/21, 11:30:45 am)] FileManager: buildJar: adding: sikulixlibswin.jar
+[debug (23/06/21, 11:30:51 am)] FileManager: buildJar: adding sikulixcontent at sikulixlibswin
+[debug (23/06/21, 11:31:04 am)] FileManager: buildJar: completed
+[debug (23/06/21, 11:31:04 am)] RunSetup: renaming sikulixtemp.jar to target jar: sikulixapi.jar
+[debug (23/06/21, 11:31:07 am)] RunSetup: Trying to run functional test: JAVA-API *** on Java8+ *** 
+[error (23/06/21, 11:31:12 am)] RunTimeSETUP: *** Java 8+: setup API test - with ProcessRunner
+[debug (23/06/21, 11:33:00 am)] RunSetup: setup API test: success
+[debug (23/06/21, 11:33:05 am)] RunSetup: ... SikuliX Setup seems to have ended successfully ;-)
+[debug (23/06/21, 11:33:05 am)] RunTimeSETUP: final cleanup
+[debug (23/06/21, 11:33:05 am)] FileManager: deleteFileOrFolder:
+C:\Users\vani\AppData\Local\Temp\Sikulix_423064360
