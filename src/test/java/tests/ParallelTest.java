@@ -7,6 +7,7 @@ import io.cucumber.testng.CucumberOptions;
 @CucumberOptions(
 		features= {"src//test//resources//features"},
 		glue= {"gluecode"},
+		tags = "@smoketest",
 		monochrome=true,
 		plugin= {"pretty","html:target//paralleltest","rerun:target//faikedtestscenarios.txt"}
 		)
