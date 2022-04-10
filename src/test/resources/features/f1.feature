@@ -1,4 +1,4 @@
-Feature:Yahoo Login
+Feature: Yahoo Login
 	Background:
 		Given Launch site using "chrome" browser 
 		And Lunch site
