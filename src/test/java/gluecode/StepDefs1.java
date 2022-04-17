@@ -49,7 +49,7 @@ public class StepDefs1
 	    sh.driver=sh.wu.OpenBrowser(bn);
 	    sh.wait=sh.wu.defineWait(sh.driver);
 	}
-	@And("Lunch site")
+	@And("Launch site")
 	public void launchsite() throws Exception
 	{
 		sh.wu.launchSite(sh.driver, "url");

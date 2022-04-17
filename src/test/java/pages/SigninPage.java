@@ -19,7 +19,7 @@ public class SigninPage
 	public FluentWait<RemoteWebDriver> wait;
 	public WebsitUtility su;
 	
-	@FindBy(how=How.LINK_TEXT,using="Sign in")
+	@FindBy(how=How.XPATH,using="//div[@title='Sign In']")
 	private WebElement sgnin;
 	
 	@FindBy(how=How.NAME,using="username")

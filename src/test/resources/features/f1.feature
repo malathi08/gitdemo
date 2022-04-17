@@ -1,7 +1,7 @@
 Feature: Yahoo Login
 	Background:
 		Given Launch site using "chrome" browser 
-		And Lunch site
+		And Launch site
 		@Smoketest
 		Scenario:Validate yahoo home page title
 		When title of the  Page is "Yahoo"

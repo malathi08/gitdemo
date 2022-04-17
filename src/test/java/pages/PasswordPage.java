@@ -23,7 +23,7 @@ public class PasswordPage
 	@FindBy(how=How.NAME,using="verifyPassword")
 	private WebElement next;
 	
-	@FindBy(how=How.XPATH,using="//span[text()='Mail']")
+	@FindBy(how=How.XPATH,using="//div[@title='Mail']")
 	private WebElement mail;
 	//error-msg
 	@FindBy(how=How.XPATH,using="//p[contains(@data-error,'ERROR_EMPTY_PASSWORD')]")
